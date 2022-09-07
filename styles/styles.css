@@ -47,6 +47,7 @@ h3 {
     background-image: -ms-linear-gradient(top, #ff5100, #ff8c00);
     background-image: -o-linear-gradient(top, #ff5100, #ff8c00);
     background-image: linear-gradient(to bottom, #ff5100, #ff8c00);
+    cursor: pointer;
     text-decoration: none;
 }
 
