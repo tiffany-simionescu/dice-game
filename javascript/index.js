@@ -29,3 +29,8 @@ function randomDice() {
     playerOne.setAttribute("src", `images/dice${playerOneDieNumber}.png`);
     playerTwo.setAttribute("src", `images/dice${playerTwoDieNumber}.png`);
 };
+
+// Create a function to reset the scoreboads
+function resetScore() {
+    
+}
