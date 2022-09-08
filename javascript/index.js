@@ -9,7 +9,7 @@ var playerTwo = document.querySelector(".player-two img");
 
 // When button is clicked, show random die for both players
 // Using conditionals for which die has the greater value,
-// change the h1 to display who is the winner - toggle class for this
+// change the h1 to display who is the winner
 
 function randomDice() {
     // Random Numbers Generated
