@@ -28,8 +28,8 @@ img {
 
 li {
     line-height: 25px;
-    /* margin-left: 0.5rem; */
 }
+
 /* Class Selectors */
 .btn {
     background: #ff0000;
@@ -42,12 +42,9 @@ li {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 20px;
-    /* margin-right: 20px;
-    margin-left: 20px; */
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
@@ -118,5 +115,3 @@ li {
     float: right;
     margin-right: 1rem;
 }
-
-/* ID Selectors */
