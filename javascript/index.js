@@ -33,7 +33,9 @@ function randomDice() {
     var playerOneDieNumber = Math.floor(Math.random() * 6) + 1;
     var playerTwoDieNumber = Math.floor(Math.random() * 6) + 1;
 
-    // Display winner in heading
+    // Display winner in heading and Update Scores
+
+    // Player 1 Wins - Player 2 Loses
     if (playerOneDieNumber > playerTwoDieNumber) {
 
         // Update Counters
@@ -46,12 +48,7 @@ function randomDice() {
         // Player 2 Lose Score
         playerTwoLoseScore.innerHTML = `${playerTwoLoseCount}`;
 
-        console.log(`Player 1 Win Count: ${playerOneWinCount}`);
-        console.log(`Player 2 Lose Count: ${playerTwoLoseCount}`);
-
-        console.log(`Player 1 Win Score: ${playerOneWinScore}`);
-        console.log(`Player 2 Lose Score: ${playerTwoLoseScore}`);
-
+    // Player 1 Loses - Player 2 Wins
     } else if (playerTwoDieNumber > playerOneDieNumber) {
 
         // Update Counters
@@ -64,6 +61,7 @@ function randomDice() {
         // Player 2 Win Score
         playerTwoWinScore.innerHTML = `${playerTwoWinCount}`;
 
+    // Player 1 and Player 2 Tie
     } else {
 
         // Update Counters
@@ -82,7 +80,7 @@ function randomDice() {
     playerTwo.setAttribute("src", `images/dice${playerTwoDieNumber}.png`);
 };
 
-// Create a function to reset the scoreboads
+// Create a function to reset the scoreboads and Update the Heading
 function resetScore() {
     // Update Counters
     playerOneWinCount = 0;
