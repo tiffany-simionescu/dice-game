@@ -23,9 +23,13 @@ h3 {
 }
 
 img {
-    margin-bottom: 0;
+    margin-bottom: -30px;
 }
 
+li {
+    line-height: 25px;
+    /* margin-left: 0.5rem; */
+}
 /* Class Selectors */
 .btn {
     background: #ff0000;
@@ -42,6 +46,8 @@ img {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 20px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
@@ -57,15 +63,21 @@ img {
     text-decoration: none;
 }
 
+.lose-score {
+    float: right;
+    margin-right: 1rem;
+}
+
 .player-one {
     margin: 50px;
 }
 
 .player-one-score {
-    margin: 20px;
-    margin-bottom: 0;
+    background-color: #0c94d3;
+    border-radius: 1rem;
+    margin: 20px 50px 0 0;
     text-align: left;
-    width: 300px;
+    width: 256px;
 }
 
 .player-two {
@@ -73,10 +85,11 @@ img {
 }
 
 .player-two-score {
-    margin: 20px;
-    margin-bottom: 0;
+    background-color: #0c94d3;
+    border-radius: 1rem;
+    margin: 20px 0 0 50px;
     text-align: left;
-    width: 300px;
+    width: 256px;
 }
 
 .players {
@@ -85,10 +98,25 @@ img {
     justify-content: center;
 }
 
+.reset {
+    margin-left: 20px;
+    width: 121px;
+}
+
 .scoreboard {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.tie-score {
+    float: right;
+    margin-right: 1rem;
+}
+
+.win-score {
+    float: right;
+    margin-right: 1rem;
 }
 
 /* ID Selectors */
